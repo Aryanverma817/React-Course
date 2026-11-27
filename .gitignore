@@ -1,0 +1,11 @@
+# Ignore all node_modules folders
+**/node_modules/
+
+# Ignore build files
+**/dist/
+**/.vite/
+
+# Ignore environment variables
+.env
+.env.*
+!.env.example
